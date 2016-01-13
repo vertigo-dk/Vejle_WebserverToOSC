@@ -19,10 +19,17 @@
 
             port.open();
 
-            var sayHello = function () {
+            var launchColum_1 = function () {
                 port.send({
-                    address: "/hello",
-                    args: ["world"]
+                    address: "/launchColum_1",
+                    args: [“1“]
+                });
+            };
+
+            var launchColum_2 = function () {
+                port.send({
+                    address: "/launchColum_2",
+                    args: [1]
                 });
             };
 
@@ -30,13 +37,14 @@
     </head>
 
     <body>
-        <h1>osc.js Web Socket Demo</h1>
+        <h1>Controlling Millumin from Websocket</h1>
 
         <div id="messageArea">
             <p id="messageLabel">OSC Message:</p>
             <pre id="message"></pre>
         </div>
 
-        <button onclick="sayHello()">Send OSC message</button>
+        <button onclick="launchColum_1()">launchColum_1</button>
+        <button onclick="launchColum_2()">launchColum_2</button>
     </body>
 </html>
