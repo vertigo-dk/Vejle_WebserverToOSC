@@ -77,6 +77,30 @@ box-shadow:  0px 5px 1px -2px #80d8b6 ,inset 15px 100px 2px -95px #4caf8d;
 }
 
 
+.afbryd {
+		
+    background-color: #F00;/* Yellow */
+    border: none;
+    color: white;
+   
+    text-decoration: none;
+    font-size: 150px;
+	box-shadow: 0px 10px #b3c055;
+	border-radius: 25px;
+	text-align:center;
+	    display: block;
+		width:800px;
+		height: 300px;
+	
+    position:relative;
+	
+	margin: 0 auto;
+	margin-top: 100px;
+
+}
+
+
+
 .faneknap_pushed {
 		
     background-color: #3c7663;/* Green */
@@ -134,6 +158,58 @@ box-shadow:  0px 5px 1px -2px #80d8b6 ,inset 15px 100px 2px -95px #4caf8d;
 	background-color:#f0f2f5;
 	width: 2600px;
 	height:2048px;}
+		
+	
+	
+	
+.OVERLAY{ 
+	background-color: rgba(0, 1, 1, 0);
+	position: absolute;
+	z-index: 200000;
+	width: 2px;
+	height:2px;
+	}
+
+.MESSAGE p {
+	
+	font-size: 25em;
+	color: white;
+	text-align:center;
+	}
+	
+	
+.MESSAGE {
+		background-color: rgba(1, 1, 1, 0.8);
+	position: absolute;
+	z-index: 210000;
+	width: 2732px;
+	height:2048px;
+	
+	}
+	
+.MESSAGE img {
+	margin:auto;
+	text-align:center;
+	 display: block;
+    margin-left: auto;
+    margin-right: auto;
+	}
+	
+	
+.MESSAGE p {
+	
+	 font-family: 'Open Sans', sans-serif; 
+	 	font-weight: 700;
+	 line-height: 250px; 
+	 margin: 0 0 0; 
+	 text-align: center; 
+	 text-transform: uppercase;
+
+	
+	font-size: 15em;
+	color: white;
+	text-align:center;
+	}
 
 
 
