@@ -29,6 +29,6 @@ Additionaly the Apple Automator script which can be adjusted to run the server a
 
 - <b>Send OSC Messages</b> 
 	- to machine <code>localhost</code> 
-	- to port <code>3333</code> 
+	- to port <code>7001</code> 
 - <b>Listen OSC Messages </b> 
-	- from port <code>3334</code>
+	- from port <code>7002</code>
